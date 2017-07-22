@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--等级在Min~Max间，则显示对应Item的图片-->
+    <!--Item 可以设置多个 List管理一组Item-->
+
+    <item
+        android:drawable="@drawable/close"
+        android:minLevel="6"
+        android:maxLevel="10"
+        />
+
+    <item
+        android:drawable="@drawable/open"
+        android:minLevel="12"
+        android:maxLevel="20"
+        />
+
+</level-list>

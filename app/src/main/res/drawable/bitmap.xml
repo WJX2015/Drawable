@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/wang0"
+        android:antialias="true"
+        android:dither="true"
+        android:tileMode="mirror">
+</bitmap>
+<!--
+    tileMode: 平铺属性
+        mirror 镜像  图片有倒立面
+        repeat 重复  图片重复填充
+        clamp  边缘拉伸  效果奇怪
+        disable 默认 图片默认显示
+-->

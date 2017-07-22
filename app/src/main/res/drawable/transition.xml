@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--负责两层间图片变化的渐变过程-->
+    <!--Item只允许2个，透明度的渐变-->
+
+    <item android:drawable="@drawable/close"/>
+    <item android:drawable="@drawable/open"/>
+
+</transition>

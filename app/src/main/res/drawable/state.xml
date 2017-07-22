@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--根据控件的当前状态更换图片，状态的监听通过自己设定-->
+
+    <item android:state_pressed="true" android:drawable="@drawable/wang0"/>
+    <item android:state_focused="true" android:drawable="@drawable/wang5"/>
+    <item android:drawable="@color/colorPrimary"/>
+
+
+</selector>
